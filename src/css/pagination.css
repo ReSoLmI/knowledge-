@@ -1,0 +1,106 @@
+/*@import url("global.css");*/
+.page {
+  padding: 20px 0;
+  font-size: 0;
+  text-align: center;
+}
+.page li{
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 30px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 2px;
+}
+.page li a{
+  display: block;
+  color: #333;
+  padding: 0 5px;
+  min-height: 30px;
+  border: 1px solid #e5e5e5;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.page li a:hover {
+  color: #3ED086;
+  border-color: #3ED086;
+}
+.page li.active  a{
+  background: #3ED086;
+  border-color: #3ED086;
+  color: #fff;
+}
+.page .pagination-prev,
+.page .pagination-next {
+  font-family: monospace;
+}
+.page .pagination-prev a{
+  background-image: url(../image/i-page-pre.png);
+}
+.page .pagination-prev:hover a{
+  background-image: url(../image/i-page-pre-hover.png);
+}
+.page .pagination-prev.disabled a{
+  background-image: url(../image/i-page-pre-disabled.png);
+}
+.page .pagination-next a{
+  background-image: url(../image/i-page-next.png);
+}
+.page .pagination-next:hover a{
+  background-image: url(../image/i-page-next-hover.png);
+}
+.page .pagination-next.disabled a{
+  background-image: url(../image/i-page-next-disabled.png);
+}
+.page .pagination-first a{
+  margin-left: 0;
+  background-image: url(../image/i-page-start.png);
+}
+.page .pagination-first:hover a{
+  background-image: url(../image/i-page-start-hover.png);
+}
+.page .pagination-first.disabled a{
+  background-image: url(../image/i-page-start-disabled.png);
+}
+.page .pagination-last a{
+  background-image: url(../image/i-page-end.png);
+}
+.page .pagination-last:hover a{
+  background-image: url(../image/i-page-end-hover.png);
+}
+.page .pagination-last.disabled a{
+  background-image: url(../image/i-page-end-disabled.png);
+}
+.page .pagination-prev,
+.page .pagination-next,
+.page .pagination-first,
+.page .pagination-last {
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 30px;
+  font-size: 0;
+}
+.page .pagination-prev.disabled a,
+.page .pagination-next.disabled a,
+.page .pagination-first.disabled a,
+.page .pagination-last.disabled a{
+  color: #d2d2d2;
+  cursor: not-allowed;
+  border-color: #E5E5E5;
+}
+.page .pagination-prev.disabled:hover a,
+.page .pagination-next.disabled:hover a,
+.page .pagination-first.disabled:hover a,
+.page .pagination-last.disabled:hover a{
+  border-color: #e5e5e5;
+}
+.page .ellipsis {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #666;
+}
